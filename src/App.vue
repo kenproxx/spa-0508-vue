@@ -1,9 +1,8 @@
 <template>
-  <Index/>
+  <Master/>
 </template>
 
 <script setup>
-import Index from "./layouts/Index.vue";
-import Header from "./layouts/Header.vue";
+import Master from "./layouts/Master.vue";
 </script>
 

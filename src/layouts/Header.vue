@@ -1,54 +1,4 @@
 <style scoped>
-@font-face {
-  font-family:Mt;
-  src:url(https://mytour.vn/fonts/Mt/Mt-Regular.otf);
-  font-display:swap;
-}
-body {
-  color:#1a202c;
-  font-size:14px;
-  font-weight:normal;
-  line-height:17px;
-  font-family:Mt,-apple-system,BlinkMacSystemFont,sans-serif;
-}
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-* {
-  box-sizing: inherit;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Mt,-apple-system,BlinkMacSystemFont,sans-serif;
-}
-
-body {
-  color: rgba(0, 0, 0, 0.87);
-  margin: 0;
-  font-size: 12px;
-  font-family: Mt;
-  font-weight: normal;
-  line-height: 14px;
-  background-color: #fff;
-}
-
-html {
-  padding: 0;
-  margin: 0;
-  font-family: Mt,-apple-system,BlinkMacSystemFont,sans-serif;
-}
-
-html {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 .jss11 {
   color: #1a202c;
   width: 100%;
@@ -64,30 +14,6 @@ html {
 
 *,:before,:after {
   box-sizing: inherit;
-}
-
-:-webkit-scrollbar {
-  width: 8px;
-  height: 10px;
-}
-
-:-webkit-scrollbar {
-  height: 5px;
-  width: 5px;
-}
-
-:-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: #a0a0a0;
-}
-
-:-webkit-scrollbar-thumb {
-  background: #bdbdbd;
-  border-radius: 8px;
-}
-
-:-webkit-scrollbar-track {
-  background: #e0e0e0;
 }
 
 .jss14 {

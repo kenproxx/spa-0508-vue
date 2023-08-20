@@ -1,15 +1,16 @@
-import Index from "../layouts/Index.vue";
+import Master from "../layouts/Master.vue";
+import Index from "../views/Index.vue";
 
 const routes = [
     {
         path: '/',
-        component: Index,
+        component: Master,
         name: 'Index',
         redirect: '/home',
         children: [
             {
-                path: '/home',
-                component: HelloWorld,
+                path: '123',
+                component: Index,
             },
             {
                 path: 'ContentOne',
