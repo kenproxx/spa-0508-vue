@@ -1,8 +1,11 @@
-<template>
-  <Master/>
-</template>
-
 <script setup>
-import Master from "./layouts/Master.vue";
+import Header from './components/Header.vue'
+import Filter from './components/Filter.vue'
+
+
 </script>
 
+<template>
+  <Header msg="Vite + Vue" />
+  <Filter msg="Vite + Vue" />
+</template>
