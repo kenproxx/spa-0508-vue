@@ -1,0 +1,510 @@
+@font-face {
+    font-family: Mt;
+    src: url(https://mytour.vn/fonts/Mt/Mt-Regular.otf);
+    font-display: swap;
+}
+
+body {
+    font-family: Mt, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Mt, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    font-size: 12px;
+    font-family: Mt;
+    font-weight: normal;
+    line-height: 14px;
+    background-color: #fff;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    font-family: Mt, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.jss24 {
+    color: #1a202c;
+    width: 100%;
+    height: 96px;
+    padding: 0px 60px;
+    z-index: 1002;
+    font-size: 14px;
+    background: #fff;
+    transition: all 0.3s;
+    line-height: 17px;
+    border-bottom: 1px solid #EDF2F7;
+}
+
+.jss25 {
+    top: 0;
+    position: fixed;
+}
+
+*,
+:before,
+:after {
+    box-sizing: inherit;
+}
+
+:-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+
+:-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+}
+
+:-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #a0a0a0;
+}
+
+:-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+    border-radius: 8px;
+}
+
+:-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+.jss27 {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jss39 {
+    color: #1a202c;
+    height: 40px;
+    margin: 0 -60px;
+    display: flex;
+    padding: 0 60px;
+    align-items: center;
+}
+
+.jss28 {
+    display: flex;
+    align-items: center;
+}
+
+.jss35 {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.MuiTypography-root {
+    margin: 0;
+}
+
+.MuiTypography-colorPrimary {
+    color: #00B6F3;
+}
+
+.MuiLink-underlineHover {
+    text-decoration: none;
+}
+
+.jss32 {
+    color: #1a202c;
+    height: 100%;
+    display: flex;
+    position: relative;
+    font-size: 15px;
+    transition: all 0.3s;
+    align-items: center;
+    font-weight: 600;
+    line-height: 18px;
+    margin-right: 24px;
+}
+
+.MuiLink-underlineHover:hover {
+    text-decoration: underline;
+}
+
+.jss32:hover {
+    color: #FF3366;
+    text-decoration: none;
+}
+
+.jss33 {
+    color: #FF3366;
+}
+
+.jss36 {
+    display: flex;
+    padding: 10px 8px;
+    transition: all 0.3s;
+    align-items: center;
+    font-weight: normal;
+    margin-right: 8px;
+    border-radius: 100px;
+}
+
+.jss40:hover {
+    background-color: #EDF2F7;
+}
+
+.jss46 {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.jss55 {
+    color: #1A202C;
+    cursor: pointer;
+    margin: 0 16px 0 8px;
+    display: flex;
+    position: relative;
+    font-size: 14px;
+    align-items: center;
+    line-height: 17px;
+}
+
+svg {
+    display: block;
+}
+
+.jss34 {
+    color: #FFFFFF;
+    width: fit-content;
+    padding: 1px 3px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    margin-left: 2px;
+    border-radius: 4px;
+    background-color: #FF3366;
+}
+
+.jss41 {
+    border-left: 1px solid #E2E8F0;
+    margin-right: 4px;
+    padding-left: 16px;
+}
+
+.jss29 {
+    width: 143px;
+    height: 35px;
+    margin-right: 56px;
+}
+
+.jss51 {
+    display: flex;
+    padding: 10px 8px;
+    transition: all 0.3s;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #ffffff;
+}
+
+.jss51:hover {
+    background-color: #EDF2F7;
+}
+
+.jss61 {
+    display: flex;
+    padding: 10px 8px;
+    transition: all 0.3s;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #ffffff;
+}
+
+.jss61:hover {
+    background-color: #EDF2F7;
+}
+
+.jss69 {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.jss79 {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.jss377 {
+    padding-left: 6px;
+}
+
+.jss60 {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.MuiBadge-root {
+    display: inline-flex;
+    position: relative;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+
+.jss540 {
+    display: flex;
+    align-items: center;
+}
+
+.jss72 {
+    cursor: pointer;
+    padding: 8px;
+    position: relative;
+    transition: all 0.3s;
+    border-radius: 100px;
+    background-color: #EDF2F7;
+}
+
+.MuiBadge-badge {
+    height: 20px;
+    display: flex;
+    padding: 0 6px;
+    z-index: 1;
+    position: absolute;
+    flex-wrap: wrap;
+    font-size: 0.8571428571428571rem;
+    min-width: 20px;
+    box-sizing: border-box;
+    transition: transform 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    align-items: center;
+    font-family: Mt;
+    font-weight: 500;
+    line-height: 1;
+    align-content: center;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.MuiBadge-colorSecondary {
+    color: #fff;
+    background-color: #FF3366;
+}
+
+.MuiBadge-anchorOriginTopRightRectangle {
+    top: 0;
+    right: 0;
+    transform: scale(1) translate(50%, -50%);
+    transform-origin: 100% 0%;
+}
+
+.MuiBadge-invisible {
+    transition: transform 195ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.MuiBadge-anchorOriginTopRightRectangle.MuiBadge-invisible {
+    transform: scale(0) translate(50%, -50%);
+}
+
+.MuiButtonBase-root {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    -moz-appearance: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.MuiButton-root {
+    color: rgba(0, 0, 0, 0.87);
+    padding: 0 8px;
+    font-size: 14px;
+    min-width: unset;
+    box-sizing: border-box;
+    min-height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: Mt;
+    font-weight: 500;
+    line-height: auto;
+    border-radius: 4px;
+    text-transform: none;
+}
+
+.MuiButton-contained {
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    background-color: #e0e0e0;
+}
+
+.MuiButton-containedSecondary {
+    color: #fff;
+    background-color: #FF3366;
+}
+
+.jss87 {
+    width: 104px;
+    height: 36px;
+    font-size: 14px;
+    box-shadow: none;
+    font-weight: 600;
+    line-height: 17px;
+    border-radius: 8px;
+}
+
+.MuiButton-root:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.MuiButton-contained:hover {
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    background-color: #d5d5d5;
+}
+
+.MuiButton-containedSecondary:hover {
+    background-color: rgb(178, 35, 71);
+}
+
+.MuiButton-outlined {
+    color: #212121;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 5px 15px;
+    font-size: 14px;
+    background: #ffffff;
+    font-weight: 500;
+    line-height: auto;
+    text-transform: none;
+}
+
+.MuiButton-outlinedSecondary {
+    color: #FF3366;
+    border: 1px solid rgba(255, 51, 102, 0.5);
+}
+
+.jss88 {
+    margin-left: 12px;
+}
+
+.MuiButton-outlinedSecondary:hover {
+    border: 1px solid #FF3366;
+    background-color: rgba(255, 51, 102, 0.04);
+}
+
+.MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+.MuiTouchRipple-root {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
+    position: absolute;
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+.style-rIQqW {
+
+    /* Điều chỉnh chiều rộng theo ý muốn */
+    position: absolute;
+    left: 0;
+    /* top: 0; */
+}
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-rIQqW.style-rIQqW {
+    height: 96px;
+}
+
+#style-zLeUx.style-zLeUx {
+    cursor: pointer;
+}
+
+#style-RC4Yq.style-RC4Yq {
+    margin-right: 56px;
+}
+
+#style-sGLXx.style-sGLXx {
+    text-decoration: none;
+    color: rgb(26, 32, 44);
+}
+
+#style-ZjGhC.style-ZjGhC {
+    text-decoration: none;
+    color: rgb(26, 32, 44);
+}
+
+#style-cDg88.style-cDg88 {
+    text-decoration: none;
+    color: rgb(26, 32, 44);
+}
+
+#style-K71id.style-K71id {
+    text-decoration: none;
+    color: rgb(26, 32, 44);
+}
+
+#style-wKxET.style-wKxET {
+    color: rgb(26, 32, 44);
+}
+
+#style-ZR8j6.style-ZR8j6 {
+    color: rgb(26, 32, 44);
+}
+
+#style-JFU6g.style-JFU6g {
+    color: rgb(26, 32, 44);
+}
