@@ -1,28 +1,31 @@
-import Master from "../layouts/Master.vue";
-import Index from "../views/Index.vue";
+import Hotel from "/src/components/Hotel.vue";
+import Ticket from "/src/components/Ticket.vue";
+import HomeStay from "/src/components/HomeStay.vue";
+import App from "/src/App.vue";
 
 const routes = [
     {
         path: '/',
-        component: Master,
-        name: 'Index',
-        redirect: '/home',
+        component: App,
+        name: 'App',
         children: [
             {
-                path: '123',
-                component: Index,
+                path: '',
+                name: 'Hotel',
+                component: Hotel,
             },
-            {
-                path: 'ContentOne',
-                name: 'contentone',
-                component: ContentOne,
-            },
-            {
-                path: 'ContentTwo',
-                name: 'contentwo',
-                component: ContentTwo,
-            }
+
         ]
+    },
+    {
+        path: '/ticket',
+        name: 'Ticket',
+        component: Ticket,
+    },
+    {
+        path: '/homeStay',
+        name: 'HomeStay',
+        component: HomeStay,
     }
 ];
 

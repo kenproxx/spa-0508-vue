@@ -1,11 +1,9 @@
 <script setup>
-import Header from './components/Header.vue'
-import Filter from './components/Filter.vue'
-
-
+import Header from '/src/components/Header.vue'
+import Filter from '/src/components/Filter.vue'
 </script>
 
 <template>
-  <Header msg="Vite + Vue" />
-  <Filter msg="Vite + Vue" />
+  <Header/>
+  <Filter/>
 </template>

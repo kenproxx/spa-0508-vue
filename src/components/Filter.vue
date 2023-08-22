@@ -1,15 +1,15 @@
 <script setup>
-import '../css/filter.css'
-import '../css/hotel.css'
-import '../css/ticket.css'
-import '../css/homeStay.css'
+import '/src/css/filter.css'
+import '/src/css/hotel.css'
+import '/src/css/ticket.css'
+import '/src/css/homeStay.css'
 </script>
 
 <template>
-    <div class="MuiBox-root jss392 jss101 snipcss0-3-3-4 snipcss-w6XCI">
-        <div class="MuiBox-root jss393 jss102 snipcss0-4-4-5">
-            <div @click="activateMenu(1)" :class="{ jss104: activeMenu === 1 }" class="MuiBox-root jss394 jss103 style-vgook"
-                id="style-vgook">
+  <div class="MuiBox-root jss392 jss101 snipcss0-3-3-4 snipcss-w6XCI">
+    <div class="MuiBox-root jss393 jss102 snipcss0-4-4-5">
+      <div @click="activateMenu(1)" :class="{ jss104: activeMenu === 1 }" class="MuiBox-root jss394 jss103 style-vgook"
+           id="style-vgook">
                 <span class="MuiBox-root jss395 jss105 jss106">
                     <svg width="20" height="20" fill="none" class="svgFillAll snipcss0-7-7-8">
                         <path
@@ -18,18 +18,18 @@ import '../css/homeStay.css'
                         </path>
                     </svg>
                 </span>
-                <h2 class="snipcss0-6-6-9 style-SVeSM" id="style-SVeSM">
-                    <router-link to="/">Khách sạn</router-link>
-                </h2>
-                <h3 class="snipcss0-6-6-10 style-5sQGp" id="style-5sQGp">
-                    Hot Deal khách sạn 5* đồng giá chỉ 88k
-                </h3>
-                <div class="MuiBox-root jss588 jss111 jss113 snipcss0-6-6-11">
-                    Sale Hè
-                </div>
-            </div>
-            <div @click="activateMenu(2)" :class="{ jss104: activeMenu === 2 }"
-                class="MuiBox-root jss396 jss103 style-stPvP" id="style-stPvP">
+        <h2 class="snipcss0-6-6-9 style-SVeSM" id="style-SVeSM">
+          <router-link to="/">Khách sạn</router-link>
+        </h2>
+        <h3 class="snipcss0-6-6-10 style-5sQGp" id="style-5sQGp">
+          Hot Deal khách sạn 5* đồng giá chỉ 88k
+        </h3>
+        <div class="MuiBox-root jss588 jss111 jss113 snipcss0-6-6-11">
+          Sale Hè
+        </div>
+      </div>
+      <div @click="activateMenu(2)" :class="{ jss104: activeMenu === 2 }"
+           class="MuiBox-root jss396 jss103 style-stPvP" id="style-stPvP">
                 <span class="MuiBox-root jss397 jss105">
                     <svg width="20" height="20" fill="none" class="svgFillAll snipcss0-7-13-14">
                         <path
@@ -42,18 +42,18 @@ import '../css/homeStay.css'
                         </path>
                     </svg>
                 </span>
-                <h2 class="snipcss0-6-12-15 style-cdztE" id="style-cdztE">
-                    <router-link to="/ticket">Vé máy bay</router-link>
-                </h2>
-                <h3 class="snipcss0-6-12-16 style-mofFi" id="style-mofFi">
-                    Đặt vé máy bay giá tốt, dễ dàng thao tác, hoàn hủy linh hoạt
-                </h3>
-                <div class="MuiBox-root jss589 jss111 jss112 snipcss0-6-12-17">
-                    Chỉ 19k
-                </div>
-            </div>
-            <div @click="activateMenu(3)" :class="{ jss104: activeMenu === 3 }"
-                class="MuiBox-root jss398 jss103 snipcss0-5-5-18 style-Nm1R4" id="style-Nm1R4">
+        <h2 class="snipcss0-6-12-15 style-cdztE" id="style-cdztE">
+          <router-link to="/ticket">Vé máy bay</router-link>
+        </h2>
+        <h3 class="snipcss0-6-12-16 style-mofFi" id="style-mofFi">
+          Đặt vé máy bay giá tốt, dễ dàng thao tác, hoàn hủy linh hoạt
+        </h3>
+        <div class="MuiBox-root jss589 jss111 jss112 snipcss0-6-12-17">
+          Chỉ 19k
+        </div>
+      </div>
+      <div @click="activateMenu(3)" :class="{ jss104: activeMenu === 3 }"
+           class="MuiBox-root jss398 jss103 snipcss0-5-5-18 style-Nm1R4" id="style-Nm1R4">
                 <span class="MuiBox-root jss399 jss105 snipcss0-6-18-19">
                     <svg width="20" height="20" fill="none" class="svgFillAll snipcss0-7-19-20">
                         <path
@@ -62,29 +62,29 @@ import '../css/homeStay.css'
                         </path>
                     </svg>
                 </span>
-                <h2 class="snipcss0-6-18-21 style-F23mo" id="style-F23mo">
-                    <router-link to="/homestay">Biệt thự, Homestay</router-link>
-                </h2>
-            </div>
-            <div class="MuiBox-root jss400 jss107">
-            </div>
-        </div>
+        <h2 class="snipcss0-6-18-21 style-F23mo" id="style-F23mo">
+          <router-link to="/homestay">Biệt thự, Homestay</router-link>
+        </h2>
+      </div>
+      <div class="MuiBox-root jss400 jss107">
+      </div>
     </div>
-    <router-view></router-view>
+  </div>
+  <router-view></router-view>
 </template>
 
 <script>
 export default {
-    data() {
-        return {
-            activeMenu: null
-        };
-    },
-    methods: {
-        activateMenu(menuNumber) {
-            this.activeMenu = menuNumber;
+  data() {
+    return {
+      activeMenu: null
+    };
+  },
+  methods: {
+    activateMenu(menuNumber) {
+      this.activeMenu = menuNumber;
 
-        }
     }
+  }
 };
 </script>

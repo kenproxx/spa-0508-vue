@@ -1,5 +1,5 @@
 <script setup>
-import '../css/header.css'
+import '/src/css/header.css'
 </script>
 
 <template>
