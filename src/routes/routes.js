@@ -3,6 +3,7 @@ import Ticket from "/src/components/Ticket.vue";
 import HomeStay from "/src/components/HomeStay.vue";
 import App from "/src/App.vue";
 
+
 const routes = [
     {
         path: '/',
