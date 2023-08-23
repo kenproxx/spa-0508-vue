@@ -13,6 +13,7 @@
     "axios": "^1.4.0",
     "vue": "^3.3.4",
     "vue-axios": "^3.5.2",
+    "vue-carousel": "^0.18.0",
     "vue-router": "^4.2.4"
   },
   "devDependencies": {

@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="MuiBox-root jss3116 jss3102 snipcss-1zwNU style-aj9Tc" id="style-aj9Tc">
+    <div class="MuiBox-root jss3116 jss3102 snipcss-1zwNU style-aj9Tc dv_hotel" id="style-aj9Tc">
         <div class="MuiBox-root jss3117 jss3107">
             <div class="MuiBox-root jss3118 jss3110">
                 <div class="MuiBox-root jss3119 jss3105">
@@ -75,4 +75,5 @@
             <span class="MuiTouchRipple-root">
             </span>
         </button>
-</div></template>
+    </div>
+</template>

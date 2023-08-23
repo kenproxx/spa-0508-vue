@@ -5,18 +5,23 @@ import App from "/src/App.vue";
 
 
 const routes = [
+    // {
+    //     path: '/',
+    //     component: App,
+    //     name: 'App',
+    //     children: [
+    //         {
+    //             path: '',
+    //             name: 'Hotel',
+    //             component: Hotel,
+    //         },
+
+    //     ]
+    // },
     {
         path: '/',
-        component: App,
-        name: 'App',
-        children: [
-            {
-                path: '',
-                name: 'Hotel',
-                component: Hotel,
-            },
-
-        ]
+        name: 'Hotel',
+        component: Hotel,
     },
     {
         path: '/ticket',

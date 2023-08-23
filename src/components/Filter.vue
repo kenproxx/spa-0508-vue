@@ -6,8 +6,21 @@ import '/src/css/homeStay.css'
 </script>
 
 <template>
-    <div class="MuiBox-root jss392 jss101 snipcss0-3-3-4 snipcss-w6XCI">
-        <div class="MuiBox-root jss393 jss102 snipcss0-4-4-5">
+    <div class="banner">
+        <video id="bgVideo" autoplay loop muted>
+            <source src="/src/file/banner2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay">
+            <div class="video-controls">
+                <button id="playPauseBtn" class="play">Play</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="MuiBox-root jss392 jss101 snipcss0-3-3-4 snipcss-w6XCI" id="dv_filter">
+        <div class="MuiBox-root jss393 jss102 snipcss0-4-4-5" id="filter">
             <div @click="activateMenu(1)" :class="{ jss104: activeMenu === 1 }"
                 class="MuiBox-root jss394 jss103 style-vgook" id="style-vgook">
                 <span class="MuiBox-root jss395 jss105 jss106">
@@ -69,7 +82,6 @@ import '/src/css/homeStay.css'
             <div class="MuiBox-root jss400 jss107" id="test">
             </div>
         </div>
-    </div>
     </div>
     <router-view></router-view>
 </template>

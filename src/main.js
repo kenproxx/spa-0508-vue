@@ -14,5 +14,5 @@ const router = createRouter({
 
 const app = createApp(App);
 app.use(router);
-app.use(VueAxios,axios);
+app.use(VueAxios, axios);
 app.mount('#app');
