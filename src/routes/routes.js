@@ -1,6 +1,7 @@
 import Hotel from "/src/components/Hotel.vue";
 import Ticket from "/src/components/Ticket.vue";
 import HomeStay from "/src/components/HomeStay.vue";
+import BookTicket from "/src/components/BookTicket.vue";
 import App from "/src/App.vue";
 
 
