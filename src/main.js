@@ -5,6 +5,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import routes from "/src/routes/routes.js";
 import VueAxios from 'vue-axios';
 import axios from 'axios';
+import Antd from "ant-design-vue";
 
 
 const router = createRouter({
@@ -15,4 +16,5 @@ const router = createRouter({
 const app = createApp(App);
 app.use(router);
 app.use(VueAxios, axios);
+app.use(Antd);
 app.mount('#app');
