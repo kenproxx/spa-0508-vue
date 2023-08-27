@@ -6,6 +6,7 @@ import routes from "/src/routes/routes.js";
 import VueAxios from 'vue-axios';
 import axios from 'axios';
 import Antd from "ant-design-vue";
+import VueModal from 'vue-js-modal';
 
 
 const router = createRouter({
@@ -18,3 +19,4 @@ app.use(router);
 app.use(VueAxios, axios);
 app.use(Antd);
 app.mount('#app');
+app.use(VueModal);

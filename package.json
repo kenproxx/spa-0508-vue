@@ -11,9 +11,11 @@
   "dependencies": {
     "ant-design-vue": "^4.0.0",
     "axios": "^1.4.0",
+    "usemodal-vue3": "^0.3.7",
     "vue": "^3.3.4",
     "vue-axios": "^3.5.2",
     "vue-carousel": "^0.18.0",
+    "vue-js-modal": "^2.0.1",
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
