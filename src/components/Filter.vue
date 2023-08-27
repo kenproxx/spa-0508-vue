@@ -1,8 +1,8 @@
 <script setup>
 import '/src/css/filter.css'
-import '/src/css/hotel.css'
-import '/src/css/ticket.css'
-import '/src/css/homeStay.css'
+import Hotel from '/src/components/Hotel.vue'
+import Ticket from '/src/components/Ticket.vue'
+import HomeStay from '/src/components/HomeStay.vue'
 </script>
 
 <template>
@@ -109,3 +109,284 @@ export default {
     }
 };
 </script>
+
+<style scoped>
+@font-face {
+    font-family: Mt;
+    src: url(https://mytour.vn/fonts/Mt/Mt-Regular.otf);
+    font-display: swap;
+}
+
+body {
+    color: #1a202c;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 17px;
+    font-family: Mt, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Mt, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    font-size: 12px;
+    font-family: Mt;
+    font-weight: normal;
+    line-height: 14px;
+    background-color: #fff;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    font-family: Mt, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+:before,
+:after {
+    box-sizing: inherit;
+}
+
+:-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+
+:-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+}
+
+:-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #a0a0a0;
+}
+
+:-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+    border-radius: 8px;
+}
+
+:-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+.jss102 {
+    gap: 40px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.jss101 {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    padding: 8px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #filter {
+    width: 85%;
+    height: 48px;
+    display: flex;
+    padding: 8px;
+    position: relative;
+    background: white;
+    box-shadow: 0px 10px 10px rgba(26, 32, 44, 0.05);
+    align-items: center;
+    border-bottom: 1px solid #EDF2F7;
+    border-radius: 6px;
+    justify-content: center;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+} */
+
+.jss103 {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    align-items: center;
+    font-weight: 600;
+    line-height: 19px;
+    justify-content: center;
+}
+
+.jss107 {
+    left: 0px;
+    width: 110px;
+    bottom: -14px;
+    height: 2px;
+    position: absolute;
+    transition: all 0.3s;
+    background-color: #FF3366;
+}
+
+.jss104 {
+    color: #FF3366;
+}
+
+.jss111 {
+    left: 28px;
+    bottom: 26px;
+    padding: 2px 4px;
+    position: absolute;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 13px;
+    border-radius: 5px 5px 5px 0px;
+}
+
+.jss113 {
+    color: #ffffff;
+    background-color: #FF3366;
+}
+
+.jss105 {
+    margin-right: 8px;
+}
+
+.jss112 {
+    color: #FF3366;
+    border: 1px solid #FF3366;
+    background-color: #ffffff;
+}
+
+svg {
+    display: block;
+}
+
+.jss105 svg {
+    fill: #1a202c;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-vgook.style-vgook {
+    min-width: 110px;
+}
+
+#style-SVeSM.style-SVeSM {
+    font-size: inherit;
+    margin: initial;
+}
+
+#style-5sQGp.style-5sQGp {
+    display: none;
+}
+
+#style-stPvP.style-stPvP {
+    min-width: 130px;
+}
+
+#style-cdztE.style-cdztE {
+    font-size: inherit;
+    margin: initial;
+}
+
+#style-mofFi.style-mofFi {
+    display: none;
+}
+
+#style-Nm1R4.style-Nm1R4 {
+    min-width: 178px;
+}
+
+#style-F23mo.style-F23mo {
+    font-size: inherit;
+    margin: initial;
+}
+
+/*  banner video */
+
+/*   chilrend */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-controls {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#playPauseBtn {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* #dv_filter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+} */
+
+/*   chilrend  end*/
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* banner video  end */
+</style>

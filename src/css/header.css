@@ -1,9 +1,3 @@
-@font-face {
-    font-family: Mt;
-    src: url(https://mytour.vn/fonts/Mt/Mt-Regular.otf);
-    font-display: swap;
-}
-
 body {
     font-family: Mt, -apple-system, BlinkMacSystemFont, sans-serif;
     color: rgba(0, 0, 0, 0.87);
@@ -455,7 +449,53 @@ svg {
     pointer-events: none;
 }
 
-.style-rIQqW {
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-tqMQT.style-tqMQT {
+    height: 96px;
+}
+
+#style-nOVGN.style-nOVGN {
+    cursor: pointer;
+}
+
+#style-oCx7n.style-oCx7n {
+    margin-right: 56px;
+}
+
+#style-Epx9c.style-Epx9c {
+    text-decoration: none;
+    color: rgb(26, 32, 44);
+}
+
+#style-ONTXX.style-ONTXX {
+    text-decoration: none;
+    color: rgb(26, 32, 44);
+}
+
+#style-DNCkq.style-DNCkq {
+    text-decoration: none;
+    color: rgb(26, 32, 44);
+}
+
+#style-y5yNQ.style-y5yNQ {
+    text-decoration: none;
+    color: rgb(26, 32, 44);
+}
+
+#style-eQJHo.style-eQJHo {
+    color: rgb(26, 32, 44);
+}
+
+#style-LN64F.style-LN64F {
+    color: rgb(26, 32, 44);
+}
+
+#style-gs731.style-gs731 {
+    color: rgb(26, 32, 44);
+}
+
+.style-tqMQT {
 
     /* Điều chỉnh chiều rộng theo ý muốn */
     position: absolute;
@@ -508,7 +548,3 @@ svg {
 #style-JFU6g.style-JFU6g {
     color: rgb(26, 32, 44);
 }
-
-
-
-
