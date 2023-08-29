@@ -14,11 +14,11 @@ import AgencyRegister from '/src/components/AgencyRegister.vue'
 <template>
   <Header />
   <Filter />
-  <Banner />
+  <!-- <Banner />
   <FlashSale />
   <TopPrice />
-  <TrendingProducts />
+  <TrendingProducts /> -->
   <Favourite />
-  <BookTicket />
-  <AgencyRegister />
+  <!-- <BookTicket />
+  <AgencyRegister /> -->
 </template>
